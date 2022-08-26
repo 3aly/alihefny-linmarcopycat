@@ -155,6 +155,10 @@ section{
 
     background-color: #1b1d25;
 }
+#yearsofexp{
+
+    background-color: white;
+}
 
 
 #contactform button{
@@ -162,6 +166,7 @@ section{
     background-color: #EDA006;
     font-size: 12px;
 }
+
 
 #contactform 
 textarea,
@@ -205,3 +210,40 @@ i{
     margin: 247px;
     cursor: pointer;
 }
+
+#nexttocontact{
+
+background-color: #1B1D25;
+
+}
+
+
+#nexttocontact #leftcol {
+    border-right: 1.5px dotted white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#nexttocontact #rightcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#nexttocontact #leftcol span{
+    color: #1B835C;
+    font-size: 3em;
+    font-weight: bold;}
+#nexttocontact #rightcol span{
+    color: #8312F0;
+    font-size: 3em;
+    font-weight: bold;
+}
+#contactform button{
+    color: white;
+}
+
