@@ -1,8 +1,8 @@
 body{
 
     background: #010109;
-    font-family: "Nunito";
-    color: white;
+font-family: 'Roboto', sans-serif;    color: white;
+    line-height: 3em;
 }
 
 #navmain{
@@ -233,17 +233,36 @@ background-color: #1B1D25;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 #nexttocontact #leftcol span{
     color: #1B835C;
     font-size: 3em;
-    font-weight: bold;}
+    font-weight: bold;
+    margin: 1em;
+}
 #nexttocontact #rightcol span{
     color: #8312F0;
     font-size: 3em;
     font-weight: bold;
+    margin: 1em;
 }
 #contactform button{
     color: white;
 }
+#nexttocontact p{
 
+    font-size: 1em;
+}
+
+#underhomepanel{
+    border-right: 1.5px dotted white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+p{
+    font-size: 0.8em;
+    font-weight: 10px;
+}
