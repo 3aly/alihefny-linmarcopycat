@@ -71,8 +71,8 @@ function scrollToSection(){
             e.preventDefault(); 
 
              //if the link is the home link, scroll to the top of the page
-            if(link.getAttribute('href')==='#Home'){ document.documentElement.scrollTop = 0;}
-            else {
+            // if(link.getAttribute('href')==='#Home'){ document.documentElement.scrollTop = 0;}
+            // else {
 
                 // get the href of the link
                 const target=e.target.getAttribute('href'); 
@@ -82,7 +82,7 @@ function scrollToSection(){
                 
                 // scroll to the section
                 targetSection.scrollIntoView({behavior:'smooth'}); 
-            }
+            // }
         }
         )
      
@@ -116,13 +116,13 @@ function navHighlighter(){
 
             
             //if the page is scrolled to the top of the HOME section, set the current section to HOME
-            if((sections[0].offsetTop)/2>pageYOffset>0){
-                current='Home';
-                sections[0].classList.add('active-home')
-            } 
+            // if((sections[0].offsetTop)/2>pageYOffset>0){
+            //     current='Home';
+            //     sections[0].classList.add('active-home')
+            // } 
 
             //if the page is scrolled to the top of the section, set the current section to the section
-            else if(pageYOffset>=secttionTop-sectionHeight/2    && pageYOffset<secttionTop+sectionHeight){
+             if(pageYOffset>=secttionTop-sectionHeight/2    && pageYOffset<secttionTop+sectionHeight){
                 sections[0].classList.remove('active-home');
 
                 //get the id of the current section 

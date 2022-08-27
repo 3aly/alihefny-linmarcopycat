@@ -1,8 +1,9 @@
 body{
 
     background: #010109;
-font-family: 'Roboto', sans-serif;    color: white;
+    font-family: 'Roboto', sans-serif;    color: white;
     line-height: 3em;
+   
 }
 
 #navmain{
@@ -21,13 +22,13 @@ font-family: 'Roboto', sans-serif;    color: white;
 #navmain #login{
 
     color: white;
-    background-color: #1B835C;
+    background-color: #25C096;
 
 }
 
 #navmain .nav-link:hover{
 
-    border-bottom: solid #1B835C;
+    border-bottom: solid #25C096;
 
        
 }
@@ -36,7 +37,7 @@ font-family: 'Roboto', sans-serif;    color: white;
 .active{
 
     color:white;
-    border-bottom: solid #1B835C;
+    border-bottom: solid #25C096;
     
     transition: all 0.5s;
 }
@@ -52,7 +53,7 @@ font-family: 'Roboto', sans-serif;    color: white;
 }
 #navmain .navbar-brand:hover
 {
-    color:#1B835C;
+    color:#25C096;
     transition: all 0.5s;
 
 }
@@ -118,22 +119,22 @@ section{
 .active-section {
     
    
-    
+/*     
     padding: 0 1em 0 1em;
     margin: 2% 0 2% 0;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.1s;
     
     
-   
+    */
 
   }
- 
+/*  
 .active-home{
     margin: 10%;
     
     transition: all 0.5s;
-}
+} */
 .active-home span{
     margin: 5%;
     transform: rotate(180deg);
@@ -236,27 +237,27 @@ background-color: #1B1D25;
     
 }
 #nexttocontact #leftcol span{
-    color: #1B835C;
+    color: #25C096;
     font-size: 3em;
     font-weight: bold;
-    margin: 1em;
+    margin: 0 1em 0 1em;
 }
 #nexttocontact #rightcol span{
     color: #8312F0;
     font-size: 3em;
     font-weight: bold;
-    margin: 1em;
+    margin: 0 1em 0 1em;
 }
 #contactform button{
     color: white;
 }
 #nexttocontact p{
 
-    font-size: 1em;
+    font-size: 0.8em;
+    margin-top: 2em ;
 }
 
 #underhomepanel{
-    border-right: 1.5px dotted white;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -265,4 +266,8 @@ background-color: #1B1D25;
 p{
     font-size: 0.8em;
     font-weight: 10px;
+}
+#Feauters #firstpanel{
+
+
 }
