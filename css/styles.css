@@ -3,6 +3,9 @@ body{
     background: #010109;
     font-family: 'Roboto', sans-serif;    color: white;
     line-height: 3em;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
    
 }
 
@@ -28,7 +31,7 @@ body{
 
 #navmain .nav-link:hover{
 
-    border-bottom: solid #25C096;
+    border-bottom: 2px solid #25C096;
 
        
 }
@@ -37,7 +40,7 @@ body{
 .active{
 
     color:white;
-    border-bottom: solid #25C096;
+    border-bottom: 2px solid #25C096;
     
     transition: all 0.5s;
 }
@@ -56,13 +59,6 @@ body{
     color:#25C096;
     transition: all 0.5s;
 
-}
-
-#headingGroup h1{
-
-    color:white;
-    font-size: 4rem;
-    font-weight: 100;
 }
 
 
@@ -112,45 +108,12 @@ p{
 section{
 
    
-    margin-bottom: 100px ;
+    margin-bottom: 10em ;
     transition: all 0.5s ;
 }
 
-.active-section {
-    
-   
-/*     
-    padding: 0 1em 0 1em;
-    margin: 2% 0 2% 0;
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: all 0.1s;
-    
-    
-    */
 
-  }
-/*  
-.active-home{
-    margin: 10%;
-    
-    transition: all 0.5s;
-} */
-.active-home span{
-    margin: 5%;
-    transform: rotate(180deg);
-    display: inline-block;
-    transition: all 0.5s;
-    
-}
-#Home{
-    
-    transition: all 0.5s;
-}
-#Home span{
-    
-    transition: all 0.5s;
-    
-}
+
 
 #contactform {
 

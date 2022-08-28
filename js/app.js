@@ -112,24 +112,23 @@ function navHighlighter(){
             //calculate the offset form each section to the top of the window
 
             const secttionTop = section.offsetTop; 
-            const sectionHeight = section.offsetHeight;
+            const sectionHeight = section.clientHeight;
 
             
-            //if the page is scrolled to the top of the HOME section, set the current section to HOME
-            // if((sections[0].offsetTop)/2>pageYOffset>0){
-            //     current='Home';
-            //     sections[0].classList.add('active-home')
-            // } 
+            // if the page is scrolled to the top of the HOME section, set the current section to HOME
+            if((sections[0].offsetTop)/3>pageYOffset>0){
+                current='Home';
+                
+            } 
 
             //if the page is scrolled to the top of the section, set the current section to the section
-             if(pageYOffset>=secttionTop-sectionHeight/2    && pageYOffset<secttionTop+sectionHeight){
-                sections[0].classList.remove('active-home');
+             if(pageYOffset>=secttionTop-sectionHeight/3){
 
                 //get the id of the current section 
                 current=section.getAttribute('id'); 
                 
         }
-                section.classList.remove('active-section');
+            
 
             
               
@@ -139,12 +138,12 @@ function navHighlighter(){
         console.log(current);
           
         //if the current section is not the HOME section, highlight the current section
-        if(current!=="Home"){ 
+        
 
-            //add the class of your-active-class to the current section
+             //add the class of your-active-class to the current section
             document.getElementById(current).classList.add('active-section');
 
-          }
+          
         //loop through all the li elements in the navbar
         navs.forEach(li=>{ 
 
