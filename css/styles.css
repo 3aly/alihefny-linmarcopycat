@@ -95,10 +95,10 @@ ul{
 }
 p{
 
-    color:rgb(255, 255, 255);
+    color:#777B91;
     font-weight: 5;
     font-size: 1rem;
-    line-height: 2;
+    line-height: normal;
     
 
 }
