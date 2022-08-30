@@ -8,7 +8,14 @@ body{
     justify-content: center;
    
 }
+section{
 
+    
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+   
+}
 #navmain{
 
     font-size: 1.5rem;
@@ -31,17 +38,18 @@ body{
 
 #navmain .nav-link:hover{
 
-    border-bottom: 2px solid #25C096;
-
-       
+    border-bottom: 1px solid #01b485 ;
+    border-width: 2px;
+    
 }
 
 
 .active{
 
     color:white;
-    border-bottom: 2px solid #25C096;
-    
+    border-bottom: 1px solid #25C096;
+    border-width: 50%;
+
     transition: all 0.5s;
 }
 
