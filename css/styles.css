@@ -170,8 +170,24 @@ body{
   
    font-size: 2rem;
   }
- 
- 
+  #Feauters #fourth-row span{
+  
+    font-size: 1rem;
+   }
+   #Feauters #fourth-row #third svg{
+  
+    width: 2em;
+    height: 2rem;
+   }
+   #Feauters #fourth-row #third h4{
+  
+    font-size: 1.2rem;
+   }
+   #Feauters #fourth-row #third p{
+  
+    font-size: 1rem;
+   }
+  
   }
 
 
