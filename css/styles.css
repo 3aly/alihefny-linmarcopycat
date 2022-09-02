@@ -96,9 +96,8 @@ ul{
 }
 
 @media (max-width: 1300px) {
-    #headingGroup h1{
-
-        font-size: 1rem;
+    #Home #firstpanel #right{
+        width: 100%;
     }
 }
 p{

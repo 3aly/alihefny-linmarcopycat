@@ -6,7 +6,7 @@ const navBarList=document.getElementById('navbar__list');
 
 //build the navbar
 
-buildNav();
+// buildNav();
 
 //get all the li elements in the navbar after its built and all links in navbar
 
