@@ -12,7 +12,7 @@ body{
 .panel-bg{
 
     background: rgb(33,143,100);
-    background: linear-gradient(127deg, rgba(33,143,100,0.6115488431700805) 63%, rgba(86, 212, 219, 0.655) 100%);
+    background: linear-gradient(127deg, rgb(33, 143, 101) 63%, rgb(86, 212, 219) 100%);
 }
 #Home #first-row #left #left-header{
 
@@ -42,8 +42,28 @@ body{
 
     font-size: 1.0rem ;
 }
+#Feauters #first-row{
 
-@media screen and (max-width: 600px) {
+    font-size: 1rem;
+    line-height: normal;
+}
+#Feauters #first-row #firstrowinpanel #right{
+
+    font-size: 5rem;
+    line-height: normal;
+}
+
+#Feauters #first-row #thirdrowinpanel #right #table{
+ 
+   font-size: 0.8rem;
+ }
+ #Feauters #first-row #thirdrowinpanel #right #table svg{
+ 
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  
+ @media screen and (max-width: 600px) {
     #Home #first-row #left #left-header{
 
         
@@ -76,7 +96,85 @@ body{
 
     font-size: 0.8rem ;
 }
+
+#Feauters #first-row #firstrowinpanel{
+
+    font-size: 0.7rem;
+    line-height: normal;
+}
+#Feauters #first-row h1{
+
+    font-size: 1.5rem;
+}
+#Feauters #first-row #secondrowinpanel #left svg{
+
+    width: 1.2rem;
+    height: 1.2rem;
+}
+#Feauters #first-row span{
+
+    font-size: 0.65rem;
+}
+#Feauters #first-row #secondrowinpanel #right #first h4{
+
+   font-size: 1.2rem;
+}
+#Feauters #first-row #secondrowinpanel #right #first p{
+
+    font-size: 1rem;
+ }
+
+#Feauters #first-row #secondrowinpanel #right #first svg{
+
+    width: 4rem;
+    height: 4rem;
+}
+#Feauters #first-row #secondrowinpanel #right #first h4{
+
+   font-size: 1.2rem;
+}
+#Feauters #first-row #secondrowinpanel #right #first p{
+
+    font-size: 1rem;
+ }
+
+#Feauters #first-row #secondrowinpanel #right #first svg{
+
+    width: 4rem;
+    height: 4rem;
+}
+#Feauters #first-row #thirdrowinpanel #left  h4{
+
+    font-size: 1.2rem;
+ }
+ #Feauters #first-row #thirdrowinpanel #left p{
+ 
+     font-size: 1rem;
   }
+ 
+ #Feauters #first-row #thirdrowinpanel #left svg{
+ 
+     width: 4rem;
+     height: 4rem;
+ }
+ #Feauters #first-row #thirdrowinpanel #right #table{
+ 
+    font-size: 0.6rem;
+  }
+  #Feauters #first-row #thirdrowinpanel #right #table svg{
+  
+     width: 0.7rem;
+     height: 0.7rem;
+   }
+   #Feauters #second-row span{
+  
+   font-size: 2rem;
+  }
+ 
+ 
+  }
+
+
 section{
 
     
