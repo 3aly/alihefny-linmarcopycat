@@ -2,12 +2,81 @@ body{
 
     background: #010109;
     font-family: 'Roboto', sans-serif;    color: white;
-    line-height: 3em;
+    line-height: 3rem;
     flex-direction: column;
     display: flex;
     justify-content: center;
    
 }
+
+.panel-bg{
+
+    background: rgb(33,143,100);
+    background: linear-gradient(127deg, rgba(33,143,100,0.6115488431700805) 63%, rgba(86, 212, 219, 0.655) 100%);
+}
+#Home #first-row #left #left-header{
+
+
+    font-size: 3.0rem ;
+}
+#Home #first-row #left{
+
+
+    font-size: 1.2rem ;
+}
+
+
+
+#Home #first-row #right{
+
+
+    font-size: 0.7rem ;
+}
+#Home #first-row #right p{
+
+
+    font-size: 1.7rem ;
+}
+#Home h6{
+
+
+    font-size: 1.0rem ;
+}
+
+@media screen and (max-width: 600px) {
+    #Home #first-row #left #left-header{
+
+        
+        font-size: 2.1rem ;
+    }
+    #Home #first-row #left{
+    
+    
+        font-size: 0.75rem ;
+    }
+    
+    
+#Home #first-row #right{
+
+
+    font-size: 0.6rem ;
+}
+#Home #first-row #right p{
+
+
+    font-size: 1.2rem ;
+}
+#Home h6{
+
+
+    font-size: .8rem ;
+}
+#Home #second-row h4,#Home #second-row h4 p{
+
+
+    font-size: 0.8rem ;
+}
+  }
 section{
 
     
@@ -95,11 +164,6 @@ ul{
     list-style-type: none;
 }
 
-@media (max-width: 1300px) {
-    #Home #firstpanel #right{
-        width: 100%;
-    }
-}
 p{
 
     color:#777B91;
@@ -234,7 +298,6 @@ background-color: #1B1D25;
 
 }
 p{
-    font-size: 0.8em;
     font-weight: 10px;
     line-height: 1.2em;
 }
