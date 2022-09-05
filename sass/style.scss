@@ -163,7 +163,19 @@ body{
    
 }
 
+#About{
 
+    #fourh-row{
+        #subrow{
+
+        height: 80%;
+        width: 70vw;
+        p{
+            font-size: 2rem;
+        }
+    }
+}
+}
 
 @media (max-width: 800px) {
 
@@ -462,7 +474,27 @@ body{
 
 
 }
-  
+#About{
+
+    #fourh-row{
+        #subrow{
+
+        height: 80%;
+        width: 95vw;
+        img{
+            height: 6em;
+            width: 15em ;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+        svg{
+            height: 2rem;
+            width: 2rem ;
+        }
+    }
+}
+}
 }
 
 

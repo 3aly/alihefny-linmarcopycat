@@ -100,6 +100,14 @@ body {
   box-shadow: 0 0 25px #262524;
 }
 
+#About #fourh-row #subrow {
+  height: 80%;
+  width: 70vw;
+}
+#About #fourh-row #subrow p {
+  font-size: 2rem;
+}
+
 @media (max-width: 800px) {
   #Home #left-header {
     color: 2.1rem;
@@ -273,6 +281,21 @@ body {
   }
   #Feauters #fourth-row #third p {
     font-size: 1rem;
+  }
+  #About #fourh-row #subrow {
+    height: 80%;
+    width: 95vw;
+  }
+  #About #fourh-row #subrow img {
+    height: 6em;
+    width: 15em;
+  }
+  #About #fourh-row #subrow p {
+    font-size: 0.8rem;
+  }
+  #About #fourh-row #subrow svg {
+    height: 2rem;
+    width: 2rem;
   }
 }
 #navmain {
