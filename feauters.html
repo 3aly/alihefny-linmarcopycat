@@ -2,7 +2,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    
 <link rel="stylesheet" href="./sass/style.css">
 <body>
-    <div class="row justify-content-center mx-1" id="first-row">
+    <div class="row " id="first-row">
         <div class="col-12 col-md-10 offset-1">
             <div class="container rounded-5 row p-4 d-flex justify-content-center" style="background-color: #1B1D25;" id="firstpanel">
               <div class="row text-center p-3" id="firstrowinpanel">
@@ -216,67 +216,64 @@
       
       
       </div>
-        
+        </div>
         <div class="row p-5 m-4 text-center justify-content-center"id="second-row">
           <div class="col-md-4 col-12 py-5">
             <h2>What about <span style="color:#0dc682">churn</span>?</h2>
             <p>In the case it happens, simply swap out churned subscription with active ones, Nono penalties or fees.</p>
           </div>
         </div>
-        <div class="row justify-content-center p-5 rounded-2" id="third-row">
         
-        <div class="col m-5 p-5 rounded-2" id="panelholder" style="background: rgb(19,193,129); 
-        background: linear-gradient(127deg, rgba(19,193,129,1) 12%, rgba(58,182,172,1) 100%);height: 30em;width: 75vw; align-items: center;position: relative;">
+        <div class="row rounded-2 " id="third-row" style="">
           
 
-            <div class="col-md-3 col-5 rounded-4 p-4 pb-0 justify-content-center " id="leftpanel" style="">
+            <div class="col-md-3 col-4 rounded-4  pb-0 justify-content-center " id="leftpanel" style="">
              
-              <div class="row my-2" id="title">
+              <div class="row my-1 mx-2" id="title">
                 <span>Price</span>
               </div>
               <div class="row" style="">
               <img src="./imgs/asset-bar-graph-chart-graph-hike-inflation-icon-615724.png" alt="" class="img-fluid" style="">
               </div>
-              <div class="row pt-1 mt-4 justify-content-center align-self-end">
-                <div class="col-md-4 col-4 rounded-2 py-2 text-center align-items-center" id="price1"style="background-color:#1D1F2B ;">
+              <div class="row pt-1 justify-content-center align-self-center">
+                <div class="col-md-4 col-1 rounded-2 py-1 text-center align-items-center" id="price1"style="background-color:#1D1F2B ;">
                  <span>$200</span>
                 </div>
                 <div class="col-md-4 col-1 rounded-pill mx-1 align-self-center" style="background-color: #323137;height:0.3em;width: 0.4em;">
                       
                 </div>
-                <div class="col-md-4 col-4 rounded-2 py-2 text-center align-items-center"style="background-color:#1D1F2B ;">
+                <div class="col-md-4 col-1 rounded-2 py-1 text-center align-items-center"id="price2"style="background-color:#1D1F2B ;">
                  <span>$800</span>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-6 rounded-4 p-4 py-2 justify-content-center align-items-center" id="centerpanel" style="">
-              <div class="row py-1"><p>Total Balance</p></div>
+            <div class="col-md-4 col-6 rounded-4 p-4" id="centerpanel" style="">
+              <div class="row py-1"><h6>Total Balance</h6></div>
               <div class="row"><h2>$16,000.00</h2></div>
-              <div class="row">Recent Transaction</div>
-              <div class="row rounded-2 mt-5 align-items-center justify-content-between mx-2 " style=" background-color:#1D1F2B ;height: 23%; ">
-                <div class="col-3 m-2" >
-                  <img src="./imgs/kindpng_7367394.png" alt="" class="img-fluid"  style="height: 3.4em;">
+              <div class="row"><p>Transaction</p></div>
+              <div class="row rounded-2 align-items-center justify-content-evenly"id="row1" style=" background-color:#1D1F2B ;">
+                <div class="col-md-3 col-4 ms-3" id="" >
+                  <img src="./imgs/kindpng_7367394.png" alt="" class="img-fluid"  style="">
                 </div>
-                <div class="col-4">
-                  Spotify
-                </div>
-                <div class="col-2">
-                  <span style="color: #0dc682; font-size: 0.61em;">$24.00</span>
+                <div class="col-md-4 col-3 ">Spotify</div>
+                <div class="col-md-2 col-1 me-3" >
+                  <span style="color: #0dc682; ">$24</span>
                 </div>
               </div>
 
-              <div class="row rounded-2 mt-3 align-items-center  mx-2 justify-content-between"  style=" background-color:#1D1F2B;height:  23%;">
-                <div class="col-3 m-2" >
-                  <img src="./imgs/netflix-icon-png-23.jpg" alt="" class="img-fluid" style="height: 3.4em;">                </div>
-                <div class="col-4">
-                    Netflix
+              <div class="row rounded-2 mt-3 justify-content-evenly"id="row2"  style=" background-color:#1D1F2B;height:  23%;">
+                <div class="col-md-3 col-4 ms-3" >
+                  <img src="./imgs/netflix-icon-png-23.jpg" alt="" class="img-fluid" style="">                
                 </div>
-                <div class="col-2 ">
-                  <span style="color: #0dc682; font-size: 0.61em;">$64.00</span>
+                <div class="col-md-4 col-3">Netflix</div>
+                <div class="col-md-2 col-1 me-3">
+                  <span style="color: #0dc682;">$64</span>
                 </div>
               </div>
+              
+              
             </div>
-            <div class="col-md-3 col-4 rounded-4 p-2 " id="rightpanel" style="">
+            <div class="col-md-3 col-3 rounded-4 p-2 " id="rightpanel" style="">
              <div class="row py-2">
                 <span>Activity</span>
              </div>
@@ -294,10 +291,10 @@
             <div class="row rounded-pill mt-4" style="background-color: #898A8F;height:0.1em;width: 100%;">
               
             </div>
-            <div class="row rounded-pill mt-4" style="background-color: #898A8F;height:0.1em;width: 100%;">
+            <div class="row rounded-pill mt-4 d-none d-md-flex" style="background-color: #898A8F;height:0.1em;width: 100%;">
               
             </div>
-            <div class="row rounded-pill mt-4" style="background-color: #898A8F;height:0.1em;width: 100%;">
+            <div class="row rounded-pill mt-4 d-none d-md-flex" style="background-color: #898A8F;height:0.1em;width: 100%;">
               
             </div>
             
@@ -310,9 +307,9 @@
       </div>
         
       </div>
-    </div>
+    
         <div class="row justify-content-center" id="">
-        <div class="col-md-9  col-12 rounded-5 mx-5 text-center p-4 " id="fourth-row" style="background-color: #0E0F13">
+        <div class="col-md-9  col-12 rounded-5 mx-5 mt-5 text-center p-4 " id="fourth-row" style="background-color: #0E0F13">
           <div class="row justify-content-center align-items-center my-2  d-none d-md-flex" id="first">
             <div class="col-md-1 col-12 text-center">
                 <span style="color:#0dc682 ;">Toutorial</span>

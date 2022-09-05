@@ -1,3 +1,6 @@
+
+$greybg: #1D1F2B;
+
 body{
 
     background: #010109;
@@ -92,31 +95,64 @@ body{
     }
     #third-row{
 
-        
-        
+        justify-self: center;        
+        background: rgb(19,193,129); 
+        background: linear-gradient(127deg, rgba(19,193,129,1) 12%, rgba(58,182,172,1) 100%);
+        height: 30em;
+        width: 95%; 
+        align-items: center;
+        position: relative;
+        margin-left: 2%;
 
             #leftpanel{
 
                   background-color:#131418 ;
                   z-index: 2;
                   position: absolute;
-                  left: 15%; 
                   height: 55%; 
-                  top: 20%;
                   box-shadow: 0 0 25px #262524;
+                  left: 15%;
+                  bottom:20%;
                   img{
                     width: 27em ;
                     height:7em;
                   }
+                  #price1{ 
+                        background-color: $greybg;
+
+                  }
+                  #price2{
+                    background-color: $greybg;
+
+                  }
             }
             #centerpanel{
 
-                background-color:#131418 ;z-index: 1;position: absolute;right: 30%;height: 85%;box-shadow: 0 0 25px #262524;
+                background-color:#131418 ;
+                z-index: 1;
+                position: absolute;
+                height: 80%;
+                box-shadow: 0 0 25px #262524;
+                left: 34%;
+
+                #row1{
+                    height: 23%; 
+                }
+
+                #row2{
+
+                }
 
             }
             #rightpanel{
 
-                background-color:#131418 ; z-index: 0;position: absolute;right: 9%;height: 60% ;width: 22%;; top: 22%;box-shadow: 0 0 25px #262524;            }
+                background-color:#131418 
+                ; z-index: 0;
+                position: absolute;
+                height: 55% ;
+                width: 22%;
+                left: 65%; 
+            box-shadow: 0 0 25px #262524;            }
 
         
 
@@ -186,7 +222,7 @@ body{
 
             h1{
 
-                font-size: 2rem;
+                font-size: 1.5rem;
             }
             
             span{
@@ -198,17 +234,20 @@ body{
         }
 
         #secondrowinpanel{
+
+            
             span{
 
-                font-size: 1em;
+                font-size: 0.6em;
 
             }
 
             #left{
 
                 svg{
-                    width: 2.2rem;
-                    height: 2.2rem;
+                    width: 1.3rem;
+                    height: 1.3rem;
+                    font-size: 0.8rem;
 
                 }
                
@@ -228,8 +267,8 @@ body{
                     p{font-size: 1rem;}
                     
                     svg{
-                        width: 6rem;
-                        height: 6rem;
+                        width: 5rem;
+                        height: 5rem;
                     }
                 }
                 
@@ -239,7 +278,8 @@ body{
         }
 
         #thirdrowinpanel{
-
+                width: 100vw;
+                margin: 0;
             span{
 
                 font-size: 1em;
@@ -252,19 +292,19 @@ body{
 
                 }
                 p{
-                    font-size: 1rem;
+                    font-size: 0.8rem;
                 }
                 svg{
  
-                    width: 6rem;
-                    height: 6rem;
+                    width: 5.5rem;
+                    height: 5.5rem;
                 }
             }
             #right{
 
                 #table{
 
-                    font-size: 0.9rem;
+                    font-size: 0.6rem;
                     svg{
   
                         width: 0.7rem;
@@ -293,19 +333,15 @@ body{
     }
     #third-row{
 
+        position: relative;
 
-        #panelholder{
-            
+ 
             #leftpanel{
 
-                left: 4%; 
-
-                top: 30%;
-
-                height: 40%;
-
-
-                  
+                position: absolute;
+                height: 30%;
+                left: 3%;
+                bottom: 25%;
 
                   img{
                     width: 90%;
@@ -314,19 +350,86 @@ body{
                   span{
                     font-size:0.9rem;
                   }
+                  #price1{
+                    
+                    display: none;
+
+                    height: 1.5em;
+
+                    span{
+                        font-size: 0.1rem;
+                    }
+
+                  }
+                  #price2{
+                    display: none  ;
+                    height: 1.5em;
+
+                    span{
+                        font-size: 0.1rem;
+                    }
+                  }
             }
             #centerpanel{
 
-                background-color:#131418 ;z-index: 1;position: absolute;right: 30%;height: 85%;box-shadow: 0 0 25px #262524;
+                height: 53%;
+                left: 22%;
+
+                h6{
+                        font-size: 0.8rem ;
+                }
+
+                h2{
+                    font-size: 1.2rem;
+                }
+                p{
+
+                    font-size: 0.9rem;
+                }
+                #row1{
+                    
+
+                    width: 117%;
+                    height: 4em;
+                    img{
+                        width: 3em;
+                        height: 3em;
+                    }
+                    
+                        font-size: 0.7rem;
+                    
+                    span{                       
+                        font-size: 0.6rem;
+                    }
+                }
+                #row2{
+                    
+                    width: 117%;
+                    height: 3em;
+                    img{
+                        width: 3em;
+                        height: 3em;
+                    }
+                    
+                        font-size: 0.7rem;
+                    
+                    span{                       
+                        font-size: 0.6rem;
+                    }
+                }
 
             }
             #rightpanel{
-
-                background-color:#131418 ; z-index: 0;position: absolute;right: 9%;height: 60% ;width: 22%;; top: 22%;box-shadow: 0 0 25px #262524;
-            
+                position: absolute;
+                height: 40%;
+                width: 25%;
+                right: 50%;
+                span{
+                   font-size:  0.9rem;
+                }
             }
 
-        }
+        
 
 
 
@@ -363,14 +466,7 @@ body{
 }
 
 
-section{
 
-    
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-   
-}
 #navmain{
 
     font-size: 1.5rem;
