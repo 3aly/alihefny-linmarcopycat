@@ -99,14 +99,14 @@ body{
 
 #Feauters #first-row #firstrowinpanel{
 
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     line-height: normal;
 }
 #Feauters #first-row h1{
 
     font-size: 1.5rem;
 }
-#Feauters #first-row #secondrowinpanel #left svg{
+#Feauters #first-row #secondrowinpanel #left #tablesvg{
 
     width: 1.2rem;
     height: 1.2rem;
