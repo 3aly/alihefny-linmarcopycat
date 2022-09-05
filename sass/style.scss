@@ -1,0 +1,478 @@
+body{
+
+    background: #010109;
+    font-family: 'Roboto', sans-serif;    color: white;
+    line-height: 3rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+   
+}
+
+@mixin panel {
+    
+}
+
+.panel-bg{
+
+    background: rgb(33,143,100);
+    background: linear-gradient(127deg, rgb(33, 143, 101) 63%, rgb(86, 212, 219) 100%);
+}
+
+#Home {
+
+    #left-header{
+
+        color: 3rem;
+
+    }
+
+    #first-row 
+    {
+        #left{
+
+            font-size: 1.2rem ;
+       
+        }   
+        #right{
+
+
+            font-size: 0.7rem ;
+
+        p{
+            font-size: 1.7rem ;
+        }
+        }
+    }
+
+    h6{
+
+        font-size: 1.0rem ;
+    }
+
+}
+
+
+#Feauters{
+
+    #first-row{
+
+        font-size: 1rem;
+        line-height: normal;
+        #firstrowinpanel {
+            
+            #right{
+
+            font-size: 5rem;
+            line-height: normal;
+
+            #table{
+ 
+                font-size: 0.8rem;
+                svg{
+ 
+                    width: 0.8rem;
+                    height: 0.8rem;
+                  }
+            
+            }
+        }
+            }
+    }
+
+}
+
+
+
+@media (min-width: 600px) {
+
+    #Home {
+
+        #left-header{
+    
+            color: 2.1rem;
+    
+        }
+    
+        #first-row 
+        {
+            #left{
+    
+                font-size: 0.75rem ;
+           
+            }   
+            #right{
+    
+    
+                font-size: 0.6rem ;
+    
+            p{
+                font-size: 1.2rem ;
+            }
+            }
+        }
+
+        #second-row{
+
+
+            h4{
+
+                p{
+                    font-size: 0.8rem ;
+                }
+                font-size: 0.8rem ;
+            }
+
+
+        }
+    
+        h6{
+    
+            font-size: 0.8rem ;
+        }
+    
+    }
+
+#Feauters{
+
+    #first-row{
+
+        #firstrowinpanel{
+            font-size: 0.7rem;
+            line-height: normal;
+
+        }
+
+        #secondrowinpanel{
+            #left{
+
+                svg{
+                    width: 1.2rem;
+                    height: 1.2rem;
+
+                }
+            }
+            #right{
+                #first{
+
+                    h4{font-size: 1.2rem;}
+                    p{font-size: 1rem;}
+                    
+                    svg{
+                        width: 4rem;
+                        height: 4rem;
+                    }
+                }
+                
+                }
+               
+
+        }
+
+        #thirdrowinpanel{
+
+
+            #left{
+                h4{
+                    
+                    font-size: 1.2rem;
+
+                }
+                p{
+                    font-size: 1rem;
+                }
+                svg{
+ 
+                    width: 4rem;
+                    height: 4rem;
+                }
+            }
+            #right{
+
+                #table{
+
+                    font-size: 0.6rem;
+                    svg{
+  
+                        width: 0.7rem;
+                        height: 0.7rem;
+                      }
+
+                }
+            }
+        }
+
+        h1{
+            font-size: 1.5rem;
+        }
+
+        span{
+
+            font-size: 0.65rem;
+        }
+
+    }
+    #second-row{
+
+        span{
+            font-size: 2rem;
+        }
+    }
+    #fourth-row{
+
+        span{
+            font-size: 1rem;
+        }
+        #third{
+            svg{
+  
+                width: 2em;
+                height: 2rem;
+               }
+               h4{
+  
+                font-size: 1.2rem;
+               }
+               p{
+  
+                font-size: 1rem;
+               }
+        }
+    }
+
+
+    
+
+
+}
+  
+}
+
+
+section{
+
+    
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+   
+}
+#navmain{
+
+    font-size: 1.5rem;
+    font-weight: 100;
+    border-bottom: solid #171627;
+    background-color:#010109 ;
+
+    .nav-link{
+
+        color:white;
+
+        &:hover{
+
+                    
+            border-bottom: 1px solid #01b485 ;
+            border-width: 2px;
+
+        }
+
+    }
+    #login{
+
+        color: white;
+        background-color: #25C096;
+    
+    }
+    .navbar-brand
+        {
+    color:white;
+
+    &:hover{
+        color:#25C096;
+        transition: all 0.5s;
+    }
+        }
+}
+
+
+
+.active{
+
+    color:white;
+    border-bottom: 1px solid #25C096;
+    border-width: 50%;
+
+    transition: all 0.5s;
+}
+
+
+
+
+footer{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 10;
+    justify-content: center;
+    align-items: center;
+   line-height: normal;
+    padding: 5px;
+
+    span{}
+}
+a{
+    text-decoration: none;
+    color:rgba(199, 199, 199, 0.82);
+    font-size: 0.6em;
+
+    &:hover{
+
+        color:#EDA006;
+        transition: all 0.2s;
+
+    }
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+p{
+
+    color:#777B91;
+    font-weight: 5;
+    font-size: 1rem;
+    line-height: normal;
+    
+
+}
+
+    
+
+section{
+
+   
+    margin-bottom: 10em ;
+    transition: all 0.5s ;
+}
+
+
+
+
+#contactform {
+
+    background-color: #1b1d25;
+
+    button{
+        background-color: #EDA006;
+    font-size: 12px;
+    }
+    textarea,input{
+        background-color : #010109; 
+        border: #010109;
+
+        &:focus{
+
+                    
+            outline: none;
+            box-shadow: 0 0 5px #EDA006;
+            transition: all 0.1;
+        }
+      
+
+    }
+    button{
+        color: white;
+    }
+    
+}
+#yearsofexp{
+
+    background-color: white;
+}
+
+
+  
+ 
+
+
+
+#hard input{
+
+    background-color : #1B1D25; 
+    border: #010109;
+
+    &:focus{
+
+            
+        outline: none;
+        box-shadow: 0 0 5px #EDA006;
+        transition: all 0.1;
+
+    }
+  
+  }
+ 
+
+i{
+
+    position: absolute;
+    justify-content: end;
+    margin: 247px;
+    cursor: pointer;
+}
+
+#nexttocontact{
+
+        background-color: #1B1D25;
+        #leftcol{
+
+            border-right: 1.5px dotted white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            span{
+                color: #25C096;
+                font-size: 3em;
+                font-weight: bold;
+                margin: 0 1em 0 1em;
+            }
+            
+        }
+        #rightcol{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+            span{
+                color: #8312F0;
+                font-size: 3em;
+                font-weight: bold;
+                margin: 0 1em 0 1em;
+            }
+
+
+        }
+        p{
+
+            font-size: 0.8em;
+            margin-top: 2em ;
+        }
+
+}
+
+
+
+#underhomepanel{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+p{
+    
+}
