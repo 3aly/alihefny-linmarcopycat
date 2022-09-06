@@ -20,18 +20,18 @@
         </div>
       </div>
 
-     <div class="row justify-content-around" id="second-row">
-      <div class="col-1 align-self-center">
+     <div class="row justify-content-between" id="second-row">
+      <div class="col-1 align-self-center d-none d-md-flex" id="leftarrow">
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#EC9F05" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
         </svg> 
         
       </div>
-      <div class="col-6">
-          <div class="container p-4 rounded-2" style="background-color: #25C096;">
-            <div class="container rounded-4 p-3" style="background-color: #0A0B0F;">
-              <div class="row justify-content-end ms-5 p-0">
-                <div class="col-2">
+      <div class="col-md-6 col-12" id="centerpanel">
+          <div class="container p-4 rounded-2 panel-bg" id="holder">
+            <div class="container rounded-4 p-3" id="contentholder"style="background-color: #0A0B0F;">
+              <div class="row justify-content-end p-0">
+                <div class="col-md-2 col-5 m-0" id="svgholder">
                   <svg xmlns="http://www.w3.org/2000/svg" width="15" height="25" fill="#FA6158" class="bi bi-dot" viewBox="5 10 16 16">
                     <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
                   </svg>
@@ -44,7 +44,9 @@
                 </div>
                 
               </div>  
-              <div class="row">
+
+              <div id="table">
+              <div class="row justify-content-between">
                   <div class="col-2">
                     $978,200
                   </div>
@@ -60,48 +62,48 @@
                   
                   
                 </div>
-                <div class="row my-2 justify-content-between" style="font-size: 0.9em;line-height: normal;">
-                     <div class="col-3 align-self-end my-2">
-                    <p class="d-inline">Trading factors</p>
+                <div class="row my-2 justify-content-between align-items-start" style="font-size: 0.9em;line-height: normal;">
+                     <div class="col-md-3 col-4 align-self-end mx-0 my-2">
+                    <p class="">Trading factors</p>
                   </div>
-                  <div class="col-4 my-2">
-                    <p class="d-inline">Remaining trading limit<br>Trade value</p>
-                  </div>
-                  
-                </div>
-                <div class="row">
-                  <div class="col m-1  rounded-2 m-2" style="background-color: #185E4B" >
-                    <img src="./imgs/financial-arrow-graph-on-dark-2990738-removebg-preview.png" class="img-fluid round-1" alt="">
-                  </div>
-                  <div class="col m-1 rounded-2 m-2"  style="background-color: #DFB361">
-                    <img src="./imgs/financial-arrow-graph-on-dark-2990738-removebg-preview.png" class="img-fluid round-2" alt="">
-
-                  </div>
-                  <div class="col m-1 rounded-2 m-2" style="background-color: #CE4043">
-                    <img src="./imgs/financial-arrow-graph-on-dark-2990738-removebg-preview.png" class="img-fluid round-2" alt="">
-
+                  <div class="col-md-4 col-4 my-2 mx-0">
+                    <p class="">Remaining trading limit</p>
                   </div>
                   
                 </div>
                 <div class="row">
-                  <div class="col m-1 rounded-2 m-2" style="background-color: #328781">
-                    <img src="./imgs/financial-arrow-graph-on-dark-2990738-removebg-preview.png" class="img-fluid round-2" alt="">
+                  <div class="col m-1  rounded-2 m-2 p-0" >
+                    <img src="./imgs/GREEN.png" class="img-fluid round-1" alt="">
+                  </div>
+                  <div class="col m-1 rounded-2 m-2 p-0" >
+                    <img src="./imgs/red.png" class="img-fluid round-2" alt="">
 
                   </div>
-                  <div class="col m-1 rounded-2 m-2" style="background-color: #AD9541">
-                    <img src="./imgs/financial-arrow-graph-on-dark-2990738-removebg-preview.png" class="img-fluid round-2" alt="">
+                  <div class="col m-1 rounded-2 m-2 p-0">
+                    <img src="./imgs/Untitled.png" class="img-fluid round-2" alt="">
 
                   </div>
-                  <div class="col m-1 rounded-2 m-2" style="background-color: #224298">
-                    <img src="./imgs/financial-arrow-graph-on-dark-2990738-removebg-preview.png" class="img-fluid round-2" alt="">
+                  
+                </div>
+                <div class="row">
+                  <div class="col m-1 rounded-2 m-2 p-0" >
+                    <img src="./imgs/GREEN.png" class="img-fluid round-2" alt="">
+
+                  </div>
+                  <div class="col m-1 rounded-2 m-2 p-0" >
+                    <img src="./imgs/yellow.png" class="img-fluid round-2" alt="">
+
+                  </div>
+                  <div class="col m-1 rounded-2 m-2 p-0" >
+                    <img src="./imgs/Untitled.png" class="img-fluid round-2" alt="">
 
                   </div>
                 </div>
-                
+              </div>
             </div>
           </div>
       </div>
-      <div class="col-1 align-self-center ">
+      <div class="col-1 align-self-center d-none d-md-flex" id="rightarrow">
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#EC9F05" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
           <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
         </svg>

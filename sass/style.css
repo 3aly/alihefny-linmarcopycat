@@ -106,6 +106,7 @@ body {
 }
 #About #fourh-row #subrow p {
   font-size: 2rem;
+  line-height: normal;
 }
 
 @media (max-width: 800px) {
@@ -281,6 +282,33 @@ body {
   }
   #Feauters #fourth-row #third p {
     font-size: 1rem;
+  }
+  #About #second-row #leftarrow svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  #About #second-row #centerpanel #holder {
+    width: 90vw;
+  }
+  #About #second-row #centerpanel #holder #contentholder {
+    width: 90v;
+    position: relative;
+  }
+  #About #second-row #centerpanel #holder #contentholder #svgholder {
+    position: absolute;
+    bottom: 85%;
+    left: 75%;
+  }
+  #About #second-row #centerpanel #holder #contentholder #table {
+    height: 40%;
+    font-size: 0.55rem;
+  }
+  #About #second-row #centerpanel #holder #contentholder #table p {
+    font-size: 0.7rem;
+  }
+  #About #second-row #rightarrow svg {
+    height: 1.5rem;
+    width: 1.5rem;
   }
   #About #fourh-row #subrow {
     height: 80%;

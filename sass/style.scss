@@ -172,6 +172,7 @@ body{
         width: 70vw;
         p{
             font-size: 2rem;
+            line-height: normal;
         }
     }
 }
@@ -476,6 +477,66 @@ body{
 }
 #About{
 
+    #second-row{
+        #leftarrow{
+            svg{
+
+                height: 1.5rem ;
+                width: 1.5rem ;
+            }
+
+        }
+
+        #centerpanel{
+            #holder{
+            
+            width: 90vw;
+            #contentholder{
+
+                width: 90v;
+                position: relative;
+                #svgholder{
+
+                    position: absolute;
+
+                    bottom: 85%;
+                    left: 75%;
+                    
+
+
+                }
+
+                
+
+                #table{
+
+                    height: 40%;
+                    
+                    font-size: 0.55rem;
+                    p{
+                        font-size: 0.7rem;
+                    }
+                    img{
+
+                    }
+                }
+            }
+            
+        }
+        }
+
+        #rightarrow{
+
+            svg{
+
+                height: 1.5rem ;
+                width: 1.5rem ;
+            }
+
+        }
+    }
+
+
     #fourh-row{
         #subrow{
 
@@ -494,6 +555,7 @@ body{
         }
     }
 }
+
 }
 }
 
