@@ -9,12 +9,11 @@ body{
     flex-direction: column;
     display: flex;
     justify-content: center;
+    margin-left: 0%;
+    margin-right: 0%;
    
 }
 
-@mixin panel {
-    
-}
 
 .panel-bg{
 
@@ -176,6 +175,81 @@ body{
         }
     }
 }
+}
+
+#Contact{
+
+    #first-row{
+        height: 25rem;
+        position: relative;
+        margin-top: 3rem;
+        
+        
+       #contactform{    
+        position: relative;
+        width: 30%;
+        height: 50vh;
+        bottom: 40%;
+        
+        display: flex;
+
+        align-items: center;
+        background-color: #1b1d25;
+        #formholder{
+        
+
+            width: 90%;
+            button{
+                background-color: #EDA006;
+                font-size:1em;
+                color: white;
+                width: 13rem;
+                margin-top: 1rem ;
+
+    
+            }
+            textarea,input{
+                background-color : #010109; 
+                border: #010109;
+                margin-bottom: 1rem ;
+
+    
+                &:focus{
+    
+                            
+                    outline: none;
+                    box-shadow: 0 0 5px #EDA006;
+                    transition: all 0.1;
+                }
+            
+    
+            }
+        }
+       
+
+    
+    }
+    
+       
+    #nexttocontact{
+        position: relative;
+        width: 30%;
+        height: 47vh;
+        bottom: 20%;
+
+        #nexttocontactholder{
+            height: 40vh;
+            display: flex;
+
+            align-items: center;
+    
+        }
+    }
+}
+
+    #second-row{
+        position: relative;
+    }
 }
 
 @media (max-width: 800px) {
@@ -557,8 +631,98 @@ body{
 }
 
 }
+#Contact{
+    
+    #first-row{
+        position: relative;
+        height: 15rem;
+        margin-top: 1rem;
+
+
+       #contactform{    
+        position: relative;
+        width: 40%;
+        height: 95%;
+        bottom: 50%;
+        h3{        
+            font-size: 1rem;
+            margin-bottom: 5%;
+        }
+        #contactformholder{
+            width:90%;
+            position: relative;
+
+            right: 9%;
+            
+          #formholder{ 
+            height: 40%;
+            width: 120%;
+            justify-content: center;
+            
+            input{
+                
+            height: 1.5rem;
+            width: 100%;
+            font-size: 0.7rem;
+            margin-bottom: 0.6rem ;
+
+
+        }
+        
+
+        button{
+            font-size: 0.6rem;
+            width: 100%;
+            height: 1.5rem;
+            margin-bottom: 0%;
+            margin-top: 0%;
+
+        }
+        textarea{
+            height: 2.5rem;
+            width: 100%;
+            font-size: 0.7rem;
+            margin-bottom: 0.6rem ;
+        }
+      }
+           
+        }
+       
+
+    
+    }
+    
+       
+    #nexttocontact{
+        position: relative;
+        display: flex;
+        width: 40%;
+        height: 80%;
+        bottom: 20%;
+        align-items: center;
+
+        #nexttocontactholder{
+            height: 115%;
+            padding: 0% 4em;
+
+            
+            span{
+                font-size: 1.8rem;
+                display: inline;
+            }
+            p{
+                font-size: 0.6rem;
+
+            }
+        }
+    }
 }
 
+}
+footer{
+  
+}
+}
 
 
 #navmain{
@@ -663,33 +827,7 @@ section{
 
 
 
-#contactform {
 
-    background-color: #1b1d25;
-
-    button{
-        background-color: #EDA006;
-    font-size: 12px;
-    }
-    textarea,input{
-        background-color : #010109; 
-        border: #010109;
-
-        &:focus{
-
-                    
-            outline: none;
-            box-shadow: 0 0 5px #EDA006;
-            transition: all 0.1;
-        }
-      
-
-    }
-    button{
-        color: white;
-    }
-    
-}
 #yearsofexp{
 
     background-color: white;
