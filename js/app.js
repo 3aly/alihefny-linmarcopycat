@@ -12,14 +12,35 @@ const navBarList=document.getElementById('navbar__list');
 
 const navs=document.querySelectorAll('ul li'); 
 const navLinks=document.querySelectorAll('ul li a');
+let link = document.getElementById('style');
+let mode= false;
+document.getElementById('mode').onclick=function(){
+    console.log('hi')
+    styleToggler();
+            };
+console.log(mode);
+
 
 //deploy the functions
 
 navHighlighter();
 scrollToSection();
 
+function styleToggler(){
+
+    mode=!mode;
+    if(mode){
+        link.setAttribute('href','./sass/style.css');
+
+    }
+    else{   
+         link.setAttribute('href','./sass/style-dark.css');
+}
+}
 
 //**************main functions**************// 
+
+
 
 
 //it loops though all the sections of the page and create a corresponding nav item for each section 

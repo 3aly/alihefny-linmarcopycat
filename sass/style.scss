@@ -1,10 +1,30 @@
 
+$bodycolor: #ffffff;
 $greybg: #1D1F2B;
+$darkgreybg:#1B1D25;
+$textcolor: rgb(0, 0, 0);
+$pcolor: white;
+$buttonbg: #0dc682;
+$buttontxt: white;
+$navbarbrand: white;
+$hovercolor: #25C096;
+$navlink: white;
+$navbarcolor:#010109;
+$gradinatbg: rgb(33,143,100) linear-gradient(127deg, rgb(33, 143, 101) 63%, rgb(86, 212, 219) 100%);
+$homerightholderbg: #010109;
 
+.day-mode{
+$greybg: #1D1F2B;
+$pcolor: white;
+$bodycolor: white;
+}
+#mode{
+    cursor: pointer;
+}
 body{
 
-    background: #010109;
-    font-family: 'Roboto', sans-serif;    color: white;
+    background: $bodycolor;
+    font-family: 'Roboto', sans-serif;    color: $textcolor;
     line-height: 3rem;
     flex-direction: column;
     display: flex;
@@ -17,8 +37,7 @@ body{
 
 .panel-bg{
 
-    background: rgb(33,143,100);
-    background: linear-gradient(127deg, rgb(33, 143, 101) 63%, rgb(86, 212, 219) 100%);
+    background: $gradinatbg;
 }
 
 #Home {
@@ -40,6 +59,14 @@ body{
 
 
             font-size: 0.7rem ;
+            
+            #holder{
+                background-color: $homerightholderbg;
+
+                #homehighlight{
+                    background-color: #171627;
+                }
+            }
 
         p{
             font-size: 1.7rem ;
@@ -66,14 +93,20 @@ body{
             font-size: 1rem;
 
         }
+        #firstpanel{
+            background-color: $greybg;
+        
         #firstrowinpanel {
 
             h1{
 
                 font-size: 2em;
             }
-    
+        
             
+            #secondrowinpanel{
+
+                background-color: $darkgreybg;
             #right{
 
             font-size: 5rem;
@@ -82,6 +115,7 @@ body{
             #table{
  
                 font-size: 0.8rem;
+                background-color: $darkgreybg;
                 svg{
  
                     width: 0.8rem;
@@ -89,8 +123,10 @@ body{
                   }
             
             }
-        }
+                }
             }
+            }
+        }
     }
     #third-row{
 
@@ -729,17 +765,16 @@ footer{
 
     font-size: 1.5rem;
     font-weight: 100;
-    border-bottom: solid #171627;
-    background-color:#010109 ;
+    background-color: $navbarcolor ;
 
     .nav-link{
 
-        color:white;
+        color:$navlink;
 
         &:hover{
 
                     
-            border-bottom: 1px solid #01b485 ;
+            border-bottom: 1px solid $hovercolor ;
             border-width: 2px;
 
         }
@@ -747,16 +782,16 @@ footer{
     }
     #login{
 
-        color: white;
-        background-color: #25C096;
+        color: $buttontxt;
+        background-color: $buttonbg;
     
     }
     .navbar-brand
         {
-    color:white;
+    color:$navbarbrand;
 
     &:hover{
-        color:#25C096;
+        color:$hovercolor;
         transition: all 0.5s;
     }
         }
