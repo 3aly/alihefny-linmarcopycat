@@ -2,6 +2,36 @@
   cursor: pointer;
 }
 
+.darkgrey {
+  background-color: #131418;
+}
+
+.black {
+  background-color: #010109;
+}
+
+.lightgreen {
+  color: #0dc682;
+}
+
+.yylo {
+  background-color: #EDA006;
+  color: white;
+}
+
+.prpl {
+  color: #8312F0;
+}
+
+.lightgreybg {
+  background-color: #1B1D25;
+}
+
+.pill-color {
+  background-color: #323137;
+  height: 1em;
+}
+
 body {
   background: #010109;
   font-family: "Roboto", sans-serif;
@@ -30,9 +60,6 @@ body {
 #Home #first-row #right #holder {
   background-color: #010109;
 }
-#Home #first-row #right #holder #homehighlight {
-  background-color: #171627;
-}
 #Home #first-row #right p {
   font-size: 1.7rem;
 }
@@ -54,7 +81,7 @@ body {
   font-size: 2em;
 }
 #Feauters #first-row #firstpanel #firstrowinpanel #secondrowinpanel {
-  background-color: #1B1D25;
+  background-color: #131418;
 }
 #Feauters #first-row #firstpanel #firstrowinpanel #secondrowinpanel #right {
   font-size: 5rem;
@@ -62,7 +89,7 @@ body {
 }
 #Feauters #first-row #firstpanel #firstrowinpanel #secondrowinpanel #right #table {
   font-size: 0.8rem;
-  background-color: #1B1D25;
+  background-color: #131418;
 }
 #Feauters #first-row #firstpanel #firstrowinpanel #secondrowinpanel #right #table svg {
   width: 0.8rem;
@@ -79,7 +106,6 @@ body {
   margin-left: 2%;
 }
 #Feauters #third-row #leftpanel {
-  background-color: #131418;
   z-index: 2;
   position: absolute;
   height: 55%;
@@ -91,14 +117,7 @@ body {
   width: 27em;
   height: 7em;
 }
-#Feauters #third-row #leftpanel #price1 {
-  background-color: #1D1F2B;
-}
-#Feauters #third-row #leftpanel #price2 {
-  background-color: #1D1F2B;
-}
 #Feauters #third-row #centerpanel {
-  background-color: #131418;
   z-index: 1;
   position: absolute;
   height: 80%;
@@ -109,7 +128,6 @@ body {
   height: 23%;
 }
 #Feauters #third-row #rightpanel {
-  background-color: #131418;
   z-index: 0;
   position: absolute;
   height: 55%;
@@ -135,11 +153,10 @@ body {
 #Contact #first-row #contactform {
   position: relative;
   width: 30%;
-  height: 50vh;
+  height: 85%;
   bottom: 40%;
   display: flex;
   align-items: center;
-  background-color: #1b1d25;
 }
 #Contact #first-row #contactform #formholder {
   width: 90%;
@@ -164,11 +181,13 @@ body {
 #Contact #first-row #nexttocontact {
   position: relative;
   width: 30%;
-  height: 47vh;
+  height: 80%;
   bottom: 20%;
+  display: flex;
+  align-items: center;
 }
 #Contact #first-row #nexttocontact #nexttocontactholder {
-  height: 40vh;
+  height: 95%;
   display: flex;
   align-items: center;
 }
@@ -543,9 +562,6 @@ i {
   cursor: pointer;
 }
 
-#nexttocontact {
-  background-color: #1B1D25;
-}
 #nexttocontact #leftcol {
   border-right: 1.5px dotted white;
   display: flex;
@@ -555,7 +571,6 @@ i {
   text-align: center;
 }
 #nexttocontact #leftcol span {
-  color: #25C096;
   font-size: 3em;
   font-weight: bold;
   margin: 0 1em 0 1em;
@@ -568,7 +583,6 @@ i {
   text-align: center;
 }
 #nexttocontact #rightcol span {
-  color: #8312F0;
   font-size: 3em;
   font-weight: bold;
   margin: 0 1em 0 1em;

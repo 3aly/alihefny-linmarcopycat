@@ -30,10 +30,15 @@ function styleToggler(){
 
     mode=!mode;
     if(mode){
+
+        document.getElementById('mode').setAttribute('src','./imgs/icons8-sun-32.png');
+
         link.setAttribute('href','./sass/style.css');
 
     }
     else{   
+        document.getElementById('mode').setAttribute('src','./imgs/icons8-moon-symbol-30.png');
+
          link.setAttribute('href','./sass/style-dark.css');
 }
 }

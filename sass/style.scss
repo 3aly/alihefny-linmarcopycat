@@ -1,25 +1,55 @@
 
 $bodycolor: #ffffff;
 $greybg: #1D1F2B;
-$darkgreybg:#1B1D25;
+$darkgreybg:#131418;
 $textcolor: rgb(0, 0, 0);
-$pcolor: white;
+$pcolor: rgb(0, 0, 0);
 $buttonbg: #0dc682;
 $buttontxt: white;
 $navbarbrand: white;
 $hovercolor: #25C096;
 $navlink: white;
-$navbarcolor:#010109;
+$navbarcolor:#d44bfa;
 $gradinatbg: rgb(33,143,100) linear-gradient(127deg, rgb(33, 143, 101) 63%, rgb(86, 212, 219) 100%);
 $homerightholderbg: #010109;
+$prpl: #8312F0;
+$yylo: #EDA006;
 
-.day-mode{
-$greybg: #1D1F2B;
-$pcolor: white;
-$bodycolor: white;
-}
+
+
 #mode{
     cursor: pointer;
+}
+.darkgrey{
+    background-color: $darkgreybg;
+}
+.black{
+
+    background-color: #8484f4;
+
+
+}
+.lightgreen{
+
+   color: $buttonbg ;
+
+}
+.yylo{
+    background-color: $yylo;
+    color: $textcolor ;
+}
+.prpl{
+
+    color: $prpl ;
+}
+.lightgreybg{
+
+    background-color: #1B1D25;
+}
+.pill-color{
+
+    background-color: #323137;
+    height:1em;
 }
 body{
 
@@ -63,9 +93,7 @@ body{
             #holder{
                 background-color: $homerightholderbg;
 
-                #homehighlight{
-                    background-color: #171627;
-                }
+             
             }
 
         p{
@@ -141,7 +169,6 @@ body{
 
             #leftpanel{
 
-                  background-color:#131418 ;
                   z-index: 2;
                   position: absolute;
                   height: 55%; 
@@ -152,18 +179,10 @@ body{
                     width: 27em ;
                     height:7em;
                   }
-                  #price1{ 
-                        background-color: $greybg;
-
-                  }
-                  #price2{
-                    background-color: $greybg;
-
-                  }
+                
             }
             #centerpanel{
 
-                background-color:#131418 ;
                 z-index: 1;
                 position: absolute;
                 height: 80%;
@@ -181,8 +200,7 @@ body{
             }
             #rightpanel{
 
-                background-color:#131418 
-                ; z-index: 0;
+                z-index: 0;
                 position: absolute;
                 height: 55% ;
                 width: 22%;
@@ -224,13 +242,12 @@ body{
        #contactform{    
         position: relative;
         width: 30%;
-        height: 50vh;
+        height: 85%;
         bottom: 40%;
         
         display: flex;
 
         align-items: center;
-        background-color: #1b1d25;
         #formholder{
         
 
@@ -270,11 +287,13 @@ body{
     #nexttocontact{
         position: relative;
         width: 30%;
-        height: 47vh;
+        height: 80%;
         bottom: 20%;
+        display: flex;
+        align-items: center;
 
         #nexttocontactholder{
-            height: 40vh;
+            height: 95%;
             display: flex;
 
             align-items: center;
@@ -901,7 +920,6 @@ i{
 
 #nexttocontact{
 
-        background-color: #1B1D25;
         #leftcol{
 
             border-right: 1.5px dotted white;
@@ -911,7 +929,6 @@ i{
             align-items: center;
             text-align: center;
             span{
-                color: #25C096;
                 font-size: 3em;
                 font-weight: bold;
                 margin: 0 1em 0 1em;
@@ -926,7 +943,6 @@ i{
             text-align: center;
             
             span{
-                color: #8312F0;
                 font-size: 3em;
                 font-weight: bold;
                 margin: 0 1em 0 1em;
