@@ -3,11 +3,11 @@
 }
 
 .darkgrey {
-  background-color: #131418;
+  background-color: #F9F8F6;
 }
 
 .black {
-  background-color: #8484f4;
+  background-color: #F9F8F6;
 }
 
 .lightgreen {
@@ -15,7 +15,7 @@
 }
 
 .yylo {
-  background-color: #EDA006;
+  background-color: #FEA06A;
   color: rgb(0, 0, 0);
 }
 
@@ -24,11 +24,11 @@
 }
 
 .lightgreybg {
-  background-color: #1B1D25;
+  background-color: #F9F8F6;
 }
 
 .pill-color {
-  background-color: #323137;
+  background-color: #D7D7D7;
   height: 1em;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .panel-bg {
-  background: rgb(33, 143, 100) linear-gradient(127deg, rgb(33, 143, 101) 63%, rgb(86, 212, 219) 100%);
+  background: rgb(254, 157, 102) linear-gradient(146deg, rgb(254, 157, 102) 12%, rgb(255, 233, 219) 100%);
 }
 
 #Home #left-header {
@@ -58,13 +58,19 @@ body {
   font-size: 0.7rem;
 }
 #Home #first-row #right #holder {
-  background-color: #010109;
+  background-color: #D8D8D8;
 }
 #Home #first-row #right p {
   font-size: 1.7rem;
 }
 #Home h6 {
   font-size: 1rem;
+}
+#Home button {
+  color: white;
+}
+#Home button:hover {
+  background: #0dc682;
 }
 
 #Feauters #first-row {
@@ -75,13 +81,13 @@ body {
   font-size: 1rem;
 }
 #Feauters #first-row #firstpanel {
-  background-color: #1D1F2B;
+  background-color: #D8D8D8;
 }
 #Feauters #first-row #firstpanel #firstrowinpanel h1 {
   font-size: 2em;
 }
 #Feauters #first-row #firstpanel #firstrowinpanel #secondrowinpanel {
-  background-color: #131418;
+  background-color: #F9F8F6;
 }
 #Feauters #first-row #firstpanel #firstrowinpanel #secondrowinpanel #right {
   font-size: 5rem;
@@ -89,7 +95,7 @@ body {
 }
 #Feauters #first-row #firstpanel #firstrowinpanel #secondrowinpanel #right #table {
   font-size: 0.8rem;
-  background-color: #131418;
+  background-color: #F9F8F6;
 }
 #Feauters #first-row #firstpanel #firstrowinpanel #secondrowinpanel #right #table svg {
   width: 0.8rem;
@@ -97,8 +103,6 @@ body {
 }
 #Feauters #third-row {
   justify-self: center;
-  background: rgb(19, 193, 129);
-  background: linear-gradient(127deg, rgb(19, 193, 129) 12%, rgb(58, 182, 172) 100%);
   height: 30em;
   width: 95%;
   align-items: center;
@@ -126,6 +130,10 @@ body {
 }
 #Feauters #third-row #centerpanel #row1 {
   height: 23%;
+  background-color: white;
+}
+#Feauters #third-row #centerpanel #row2 {
+  background-color: white;
 }
 #Feauters #third-row #rightpanel {
   z-index: 0;
@@ -169,8 +177,8 @@ body {
   margin-top: 1rem;
 }
 #Contact #first-row #contactform #formholder textarea, #Contact #first-row #contactform #formholder input {
-  background-color: #010109;
-  border: #010109;
+  background-color: #D7D7D7;
+  border: #D7D7D7;
   margin-bottom: 1rem;
 }
 #Contact #first-row #contactform #formholder textarea:focus, #Contact #first-row #contactform #formholder input:focus {
@@ -478,30 +486,31 @@ body {
 #navmain {
   font-size: 1.5rem;
   font-weight: 100;
-  background-color: #d44bfa;
+  background-color: #ffffff;
+  box-shadow: 0px 15px 40px 4px rgb(171, 171, 171);
 }
 #navmain .nav-link {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 #navmain .nav-link:hover {
-  border-bottom: 1px solid #25C096;
+  border-bottom: 3px solid #FE9D66;
   border-width: 2px;
 }
 #navmain #login {
   color: white;
-  background-color: #0dc682;
+  background-color: black;
 }
 #navmain .navbar-brand {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 #navmain .navbar-brand:hover {
-  color: #25C096;
+  color: #FE9D66;
   transition: all 0.5s;
 }
 
 .active {
   color: white;
-  border-bottom: 1px solid #25C096;
+  border-bottom: 3px solid #FE9D66;
   border-width: 50%;
   transition: all 0.5s;
 }
@@ -515,6 +524,7 @@ footer {
   line-height: normal;
   padding: 5px;
 }
+
 a {
   text-decoration: none;
   color: rgba(199, 199, 199, 0.82);
@@ -530,7 +540,7 @@ ul {
 }
 
 p {
-  color: #777B91;
+  color: rgb(0, 0, 0);
   font-weight: 5;
   font-size: 1rem;
   line-height: normal;

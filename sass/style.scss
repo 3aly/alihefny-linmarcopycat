@@ -1,19 +1,19 @@
 
 $bodycolor: #ffffff;
-$greybg: #1D1F2B;
-$darkgreybg:#131418;
+$greybg: #D8D8D8;
+$darkgreybg:#F9F8F6;
 $textcolor: rgb(0, 0, 0);
 $pcolor: rgb(0, 0, 0);
 $buttonbg: #0dc682;
 $buttontxt: white;
-$navbarbrand: white;
-$hovercolor: #25C096;
-$navlink: white;
-$navbarcolor:#d44bfa;
-$gradinatbg: rgb(33,143,100) linear-gradient(127deg, rgb(33, 143, 101) 63%, rgb(86, 212, 219) 100%);
-$homerightholderbg: #010109;
+$navbarbrand: rgb(0, 0, 0);
+$hovercolor: #FE9D66;
+$navlink: rgb(0, 0, 0);
+$navbarcolor:#ffffff;
+$gradinatbg: rgb(254,157,102) linear-gradient(146deg, rgba(254,157,102,1) 12%, rgba(255,233,219,1) 100%);
+$homerightholderbg: #D8D8D8;
 $prpl: #8312F0;
-$yylo: #EDA006;
+$yylo: #FEA06A;
 
 
 
@@ -25,13 +25,13 @@ $yylo: #EDA006;
 }
 .black{
 
-    background-color: #8484f4;
+    background-color: #F9F8F6;
 
 
 }
 .lightgreen{
 
-   color: $buttonbg ;
+   color: #0dc682 ;
 
 }
 .yylo{
@@ -44,11 +44,11 @@ $yylo: #EDA006;
 }
 .lightgreybg{
 
-    background-color: #1B1D25;
+    background-color: #F9F8F6;
 }
 .pill-color{
 
-    background-color: #323137;
+    background-color: #D7D7D7;
     height:1em;
 }
 body{
@@ -106,6 +106,12 @@ body{
 
         font-size: 1.0rem ;
     }
+    button{
+        color: white;
+        &:hover{
+            background: #0dc682;
+        }
+    }
 
 }
 
@@ -159,8 +165,6 @@ body{
     #third-row{
 
         justify-self: center;        
-        background: rgb(19,193,129); 
-        background: linear-gradient(127deg, rgba(19,193,129,1) 12%, rgba(58,182,172,1) 100%);
         height: 30em;
         width: 95%; 
         align-items: center;
@@ -191,9 +195,11 @@ body{
 
                 #row1{
                     height: 23%; 
+                    background-color: white;
                 }
 
                 #row2{
+                    background-color: white;
 
                 }
 
@@ -262,8 +268,8 @@ body{
     
             }
             textarea,input{
-                background-color : #010109; 
-                border: #010109;
+                background-color : #D7D7D7; 
+                border: #D7D7D7;
                 margin-bottom: 1rem ;
 
     
@@ -785,6 +791,7 @@ footer{
     font-size: 1.5rem;
     font-weight: 100;
     background-color: $navbarcolor ;
+    box-shadow: 0px 15px 40px 4px rgba(171,171,171,1);
 
     .nav-link{
 
@@ -793,7 +800,7 @@ footer{
         &:hover{
 
                     
-            border-bottom: 1px solid $hovercolor ;
+            border-bottom: 3px solid $hovercolor ;
             border-width: 2px;
 
         }
@@ -802,7 +809,7 @@ footer{
     #login{
 
         color: $buttontxt;
-        background-color: $buttonbg;
+        background-color: black;
     
     }
     .navbar-brand
@@ -821,7 +828,7 @@ footer{
 .active{
 
     color:white;
-    border-bottom: 1px solid #25C096;
+    border-bottom: 3px solid #FE9D66;
     border-width: 50%;
 
     transition: all 0.5s;
@@ -839,7 +846,6 @@ footer{
    line-height: normal;
     padding: 5px;
 
-    span{}
 }
 a{
     text-decoration: none;
@@ -861,7 +867,7 @@ ul{
 
 p{
 
-    color:#777B91;
+    color:$pcolor;
     font-weight: 5;
     font-size: 1rem;
     line-height: normal;
